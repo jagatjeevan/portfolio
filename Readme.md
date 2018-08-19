@@ -1,4 +1,5 @@
-[![dependencies Status](https://david-dm.org/jagatjeevan/jagatjeevan.github.io/status.svg)](https://david-dm.org/jagatjeevan/jagatjeevan.github.io) [![devDependencies Status](https://david-dm.org/jagatjeevan/jagatjeevan.github.io/dev-status.svg)](https://david-dm.org/jagatjeevan/jagatjeevan.github.io?type=dev) [![Build Status](https://travis-ci.org/jagatjeevan/jagatjeevan.github.io.svg?branch=master)](https://travis-ci.org/jagatjeevan/jagatjeevan.github.io)
+[![dependencies Status](https://david-dm.org/jagatjeevan/portfolio/status.svg)](https://david-dm.org/jagatjeevan/portfolio) [![devDependencies Status](https://david-dm.org/jagatjeevan/portfolio/dev-status.svg)](https://david-dm.org/jagatjeevan/portfolio?type=dev) [![Build Status](https://travis-ci.org/jagatjeevan/portfolio.svg?branch=master)](https://travis-ci.org/jagatjeevan/portfolio)
+
 
 # About the project
 This repo collates some of the work that I want to highlight from my github.
