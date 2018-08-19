@@ -1,4 +1,4 @@
-[![dependencies Status](https://david-dm.org/jagatjeevan/portfolio/status.svg)](https://david-dm.org/jagatjeevan/portfolio) [![devDependencies Status](https://david-dm.org/jagatjeevan/portfolio/dev-status.svg)](https://david-dm.org/jagatjeevan/portfolio?type=dev) [![Build Status](https://travis-ci.org/jagatjeevan/portfolio.svg?branch=master)](https://travis-ci.org/jagatjeevan/portfolio)
+[![dependencies Status](https://david-dm.org/jagatjeevan/portfolio/status.svg)](https://david-dm.org/jagatjeevan/portfolio) [![devDependencies Status](https://david-dm.org/jagatjeevan/portfolio/dev-status.svg)](https://david-dm.org/jagatjeevan/portfolio?type=dev) [![Build Status](https://travis-ci.org/jagatjeevan/portfolio.svg?branch=master)](https://travis-ci.org/jagatjeevan/portfolio) [![Known Vulnerabilities](https://snyk.io/test/github/jagatjeevan/portfolio/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jagatjeevan/portfolio?targetFile=package.json)
 
 
 # About the project
@@ -31,7 +31,7 @@ TODOs
     - Coverage
     - vulnerability
 
-- Integrate with Travis
+- Redux setup
 - Test setup
 - Sass and Js linters
 - Pre-commit hook
