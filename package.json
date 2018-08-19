@@ -1,0 +1,49 @@
+{
+  "name": "jagatjeevan.github.io",
+  "version": "1.0.0",
+  "description": "A portfolio for my work and interest",
+  "main": "app/js/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode=development",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagatjeevan/jagatjeevan.github.io.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": {
+    "name": "Jagat Jeevan Sahoo",
+    "email": "kanhajeevan@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jagatjeevan/jagatjeevan.github.io/issues"
+  },
+  "homepage": "https://github.com/jagatjeevan/jagatjeevan.github.io#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

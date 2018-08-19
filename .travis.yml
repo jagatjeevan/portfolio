@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - "8.9.4"
+
+script:
+  - node --version
+  - npm install
+  - npm run prod
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $PORTFOLIO_TOKEN
+  local-dir: build
+  keep-history: true
+  on:
+    branch: master
+
+git:
+  depth: 10
