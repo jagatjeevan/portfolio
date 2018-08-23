@@ -4,11 +4,9 @@ import { Route, Switch } from 'react-router-dom';
 import WorkInProgress from './WorkInProgress';
 import About from './About';
 
-const App = () => (
-  <div>
-    <Route path="/" component={WorkInProgress} exact />
-    <Route path="/about" component={About} exact />
-  </div>
-);
+const App = () => ([
+  <Route path="/" component={WorkInProgress} exact key="index" />,
+  <Route path="/about" component={About} exact key="about" />
+]);
 
 export default App;
