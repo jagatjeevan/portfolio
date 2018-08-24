@@ -24,3 +24,6 @@ body {
 span {
   margin-left: 20px;
   color: #93a77b; }
+
+.pointer {
+  cursor: pointer; }
