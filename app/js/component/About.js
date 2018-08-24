@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Header from './Header';
 
 const About = () => (
   <div>
-    <Link to="/about">About</Link>
-    <Link to="/">Work in progress</Link>
+    <Header />
     <div className="container">
       You are in about page
     </div>

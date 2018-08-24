@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Header from './Header';
 
 const WorkInProgress = () => (
   <div>
-    <Link to="/about">About</Link>
-    <Link to="/">Work in progress</Link>
+    <Header />
     <div className="container">
       <span>W</span>ork
-      <span>I</span>n
-      <span>P</span>rogress
-    </div>
+          <span>I</span>n
+          <span>P</span>rogress
+        </div>
   </div>
 );
 
