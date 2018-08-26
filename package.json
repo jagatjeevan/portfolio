@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/jagatjeevan/jagatjeevan.github.io#readme",
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
@@ -36,6 +37,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.15",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
