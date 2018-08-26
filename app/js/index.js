@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
 import { configureStore } from './reduxStore';
-import style from '../scss/style.scss';
+import '../scss/style.scss';
 
 import App from './component/App';
 

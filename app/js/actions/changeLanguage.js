@@ -1,9 +1,8 @@
-import types from '../constants/actionType';
-
+import types from '../utils/actionTypes';
 
 export function changeLanguage(lang) {
   return {
-    type: 'LANGUAGE',
+    type: types.LANGUAGE,
     payload: lang,
   };
 }

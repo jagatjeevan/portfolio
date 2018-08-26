@@ -6,10 +6,13 @@ const WorkInProgress = () => (
   <div>
     <Header />
     <div className="container">
-      <span>W</span>ork
-          <span>I</span>n
-          <span>P</span>rogress
-        </div>
+      <span>W</span>
+      ork
+      <span>I</span>
+      n
+      <span>P</span>
+      rogress
+    </div>
   </div>
 );
 
