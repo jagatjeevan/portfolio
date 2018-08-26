@@ -7,6 +7,7 @@
     "dev": "webpack-dev-server --open --mode=development",
     "build": "webpack --mode=development",
     "prod": "webpack --mode=production",
+    "sass-lint": "sass-lint -c ./.sass-lintrc './app/**/*.scss' -v -q",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
