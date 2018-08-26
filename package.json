@@ -12,6 +12,10 @@
     "eslint:fix": "eslint .eslintrc.json app/js/ --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "pre-commit": [
+    "sass-lint",
+    "eslint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jagatjeevan/jagatjeevan.github.io.git"
@@ -54,6 +58,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
     "node-sass": "^4.9.3",
+    "pre-commit": "^1.2.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
