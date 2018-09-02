@@ -6,6 +6,8 @@ node_js:
 script:
   - node --version
   - npm install
+  - npm run sass-lint
+  - npm run eslint
   - npm run prod
 
 deploy:
