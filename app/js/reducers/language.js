@@ -1,10 +1,16 @@
+// @flow
+
 import actionTypes from '../utils/actionTypes';
 
-const initialState = {
+type languageState = {
+  language: string,
+};
+
+const initialState: languageState = {
   language: '',
 };
 
-export default function language(state = initialState, action) {
+export default function language(state = initialState, action: Action) {
   switch (action.type) {
     case actionTypes.LANGUAGE:
       return Object.assign({}, state, { language: action.payload });

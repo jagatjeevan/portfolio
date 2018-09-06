@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -5,6 +7,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import { changeLanguage } from '../actions/changeLanguage';
+
+type Props = {
+  language: string,
+  changeLanguageTo: Function,
+};
 
 function mapStateToProps(state) {
   return {
@@ -17,13 +24,13 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export class Header extends Component {
-  constructor(props) {
+export class Header extends Component<Props> {
+  constructor(props: Props) {
     super(props);
-    this.changeLanguage = this.changeLanguage.bind(this);
+    (this: any).changeLanguage = this.changeLanguage.bind(this);
   }
 
-  changeLanguage(lang) {
+  changeLanguage(lang: string) {
     const { changeLanguageTo } = this.props;
     changeLanguageTo(lang);
   }
