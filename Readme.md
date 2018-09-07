@@ -11,7 +11,12 @@ This repo collates some of the work that I want to highlight from my github.
 - [Webpack](https://webpack.js.org/): For bundling and other task running
 - [Babel](https://babeljs.io/): For syntactic sugar for all JavaScript
 - [React](https://reactjs.org/): For quick rendering
+- [React router](https://reacttraining.com/react-router/): Managing the routing for the application
+- [Redux](https://redux.js.org/): For central state management
+- [Flow](https://flow.org/): Strongly typed code for compile-time type errors
+- [Eslint](https://eslint.org/): Linting the javaScript.
 - [Sass](https://sass-lang.com/): For smart way to style components
+- [Sasslint](https://github.com/sasstools/sass-lint): Linting the sass files
 
 
 # Getting started
@@ -27,12 +32,5 @@ MIT
 
 
 TODOs
-- Badges
-    - Coverage
-    - vulnerability
-
-- Redux setup
 - Test setup
-- Sass and Js linters
-- Pre-commit hook
 - Translation
