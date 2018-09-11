@@ -17,6 +17,7 @@ This repo collates some of the work that I want to highlight from my github.
 - [Eslint](https://eslint.org/): Linting the javaScript.
 - [Sass](https://sass-lang.com/): For smart way to style components
 - [Sasslint](https://github.com/sasstools/sass-lint): Linting the sass files
+- [i18next](https://react.i18next.com/): Internationalization the application to support multi-languages
 
 
 # Getting started
@@ -32,5 +33,4 @@ MIT
 
 
 TODOs
-- Test setup
 - Translation
