@@ -52,7 +52,8 @@ const config = (env, argv) => ({
     }),
     new ExtractTextPlugin("styles.css"),
     new CopyWebpackPlugin([
-      { from: path.resolve(__dirname, 'app/assets/favicon'), to: path.resolve(__dirname, 'build/favicon') }
+      { from: path.resolve(__dirname, 'app/assets/favicon'), to: path.resolve(__dirname, 'build/favicon') },
+      { from: path.resolve(__dirname, 'app/assets/locales'), to: path.resolve(__dirname, 'build/locales') }
     ]),
     new CleanWebpackPlugin(['build']),
   ],

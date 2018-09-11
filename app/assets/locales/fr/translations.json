@@ -1,0 +1,11 @@
+{
+    "about": {
+        "mainContent": "FR You are in about page"
+    },
+    "links": {
+        "home": "FR Home",
+        "about": "FR About"
+    },
+    "selectedLanguage": "FR Your selected language is",
+    "workInProgress": "FR Work in progress"
+}

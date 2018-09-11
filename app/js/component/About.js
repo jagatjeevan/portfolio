@@ -3,12 +3,13 @@
 import React from 'react';
 
 import Header from './Header';
+import translator from '../utils/i18next';
 
 const About = () => (
   <div>
     <Header />
     <div className="container">
-      You are in about page
+      { translator.translate('about.mainContent') }
     </div>
   </div>
 );
