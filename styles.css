@@ -20,10 +20,9 @@ body {
   color: #4e7575;
   font-size: 50px;
   justify-content: center; }
-
-span {
-  color: #93a77b;
-  margin-left: 20px; }
+  .container span::first-letter {
+    color: #93a77b;
+    margin-left: 20px; }
 
 .pointer {
   cursor: pointer; }
