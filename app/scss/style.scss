@@ -30,11 +30,10 @@ body {
   color: $container-text-color;
   font-size: 50px;
   justify-content: center;
-}
-
-span {
-  color: $container-first-letter-color;
-  margin-left: 20px;
+  span::first-letter {
+    color: $container-first-letter-color;
+    margin-left: 20px;
+  }
 }
 
 .pointer {

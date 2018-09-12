@@ -8,12 +8,9 @@ const WorkInProgress = () => (
   <div>
     <Header />
     <div className="container">
-      <span>W</span>
-      ork
-      <span>I</span>
-      n
-      <span>P</span>
-      rogress
+      <span>Work</span>
+      <span>In</span>
+      <span>Progress</span>
     </div>
   </div>
 );
