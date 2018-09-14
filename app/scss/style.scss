@@ -1,44 +1,45 @@
-$body-background-color: #efefef;
-$container-text-color: #4e7575;
-$container-first-letter-color: #93a77b;
+@import './resume';
+// $body-background-color: #efefef;
+// $container-text-color: #4e7575;
+// $container-first-letter-color: #93a77b;
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
+// html,
+// body {
+//   height: 100%;
+//   margin: 0;
+// }
 
-body {
-  background-color: $body-background-color;
-}
+// body {
+//   background-color: $body-background-color;
+// }
 
-.app,
-.container {
-  display: flex;
-  height: 100%;
-  width: 100%;
-}
+// .app,
+// .container {
+//   display: flex;
+//   height: 100%;
+//   width: 100%;
+// }
 
-.app {
-  div {
-    width: 100%;
-  }
-}
+// .app {
+//   div {
+//     width: 100%;
+//   }
+// }
 
-.container {
-  align-items: center;
-  color: $container-text-color;
-  font-size: 50px;
-  justify-content: center;
+// .container {
+//   align-items: center;
+//   color: $container-text-color;
+//   font-size: 50px;
+//   justify-content: center;
 
-  span {
-    &::first-letter {
-      color: $container-first-letter-color;
-      margin-left: 20px;
-    }
-  }
-}
+//   span {
+//     &::first-letter {
+//       color: $container-first-letter-color;
+//       margin-left: 20px;
+//     }
+//   }
+// }
 
-.pointer {
-  cursor: pointer;
-}
+// .pointer {
+//   cursor: pointer;
+// }

@@ -1,0 +1,205 @@
+$root-var: (
+  border-color: #dedede,
+  content-background: #fafafa,
+  font-color: #333,
+  font-family: 'Open Sans Condensed',
+  font-size: 20px,
+  highlight-color: #fe8c26,
+  line-height: 1.7em,
+  secondary-color: #26bdcf,
+  spacer: 20px,
+);
+
+@mixin root-prop($prop: null, $value: null) {
+  @if ($prop and $value) {
+    #{$prop}: $value;
+  }
+}
+
+:root {
+  // Extracting to a mixin as --variable name gives a sass-lint error. https://github.com/sasstools/sass-lint/issues/1161
+  @include root-prop(--border-color, #dedede);
+  @include root-prop(--content-background, #fafafa);
+  @include root-prop(--font-color, #333);
+  @include root-prop(--font-family, 'Open Sans Condensed');
+  @include root-prop(--font-size, 20px);
+  @include root-prop(--highlight-color, #fe8c26);
+  @include root-prop(--line-height, 1.7em);
+  @include root-prop(--secondary-color, #26bdcf);
+  @include root-prop(--spacer, 20px);
+  // @each $item, $value in $root-var {
+  //     #{--$item}: $value;
+  // }
+}
+
+$border-color: map-get($root-var, border-color);
+$border: $border-color solid 1px;
+
+@mixin top-bottom-margin($margin-amount) {
+  margin-bottom: $margin-amount;
+  margin-top: $margin-amount;
+}
+
+%remove-border-from-last-section {
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+html,
+body {
+  color: var(--font-color);
+  font-family: var(--font-family), sans-serif;
+  font-size: var(--font-size);
+  height: 100%;
+  line-height: var(--line-height);
+  margin: 0;
+  @media print {
+    font-size: 14px;
+  }
+}
+
+h1,
+h2,
+h4,
+ul {
+  margin: 0;
+}
+
+.fas {
+  color: var(--highlight-color);
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+%anchor-styles {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.anchor {
+  @extend %anchor-styles;
+}
+
+a {
+  @extend %anchor-styles;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.resume-container {
+  background: var(--content-background);
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: var(--spacer);
+  width: 100%;
+}
+
+%section {
+  border-bottom: $border;
+  padding: var(--spacer);
+}
+
+.section {
+  @extend %section;
+}
+
+section {
+  @extend %section;
+  @extend %remove-border-from-last-section;
+
+  .sub-section {
+    @extend %remove-border-from-last-section;
+    padding-bottom: var(--spacer);
+  }
+
+  p {
+    @include top-bottom-margin(var(--spacer)/2);
+  }
+
+  .fas {
+    font-size: 19px;
+    position: relative;
+    top: -4px;
+  }
+}
+
+.sub-section {
+  border-bottom: $border;
+  margin-bottom: var(--spacer);
+}
+
+.education-details {
+  display: grid;
+
+  > div {
+
+    &:nth-child(3n) {
+      border: 0;
+      border-bottom: darken($border-color, 10%) solid 1px;
+    }
+
+    @media screen and (min-width: 720px) {
+      border-bottom: darken($border-color, 10%) solid 1px;
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    grid-template-columns: 4fr 4fr 1fr;
+  }
+}
+
+.technical-skills {
+  margin: 0;
+  padding: 0;
+
+  li {
+    background: darken($border-color, 20%);
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: var(--spacer);
+    margin-right: var(--spacer);
+    padding: 5px 15px;
+
+    @media print {
+      margin-bottom: map-get($root-var, spacer) / 2;
+      margin-right: map-get($root-var, spacer) / 2;
+      padding: 0;
+
+      &::after {
+        content: ', ';
+      }
+    }
+  }
+}
+
+footer {
+  background: darken($border-color, 10%);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.download-icon {
+  align-items: center;
+  background: #fe8c26;
+  border-radius: 50%;
+  bottom: 20px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  position: fixed;
+  right: 20px;
+  width: 34px;
+  @media print {
+    display: none;
+  }
+
+  .fas {
+    color: #fff;
+  }
+}
