@@ -81,29 +81,53 @@ const Resume = () => (
           <li>Created a 2-level, unique &amp; flexible variable override system via Sass for skinning the atomic UI elements. This allowed easy skinning for Trainline and their client’s websites for quick .</li>
           <li>
             Architected similiar system of 2-level variable override system for a friend&apos;s resume
-            <a href="https://jagatjeevan.github.io/Su-Che.github.io/index.html" target="_blank">here</a>
+            <a href="https://jagatjeevan.github.io/Su-Che.github.io/index.html" target="_blank"> here </a>
           </li>
           <li>Developed responsive emails templates using XSLT for new customer registration, booking confirmation emails etc.</li>
           <li>Architected a common platform to share UI component styles among 3 teams, using React and Angular frameworks.</li>
-          <li>Architected and developed the front-end for the Cisco eReader Android and iOS apps.</li>
+          <li>
+            Architected and developed the front-end for the Cisco eReader
+            <a href="https://play.google.com/store/apps/details?id=com.cisco.dkit" target="_blank"> Android </a>
+            and
+            <a href="https://itunes.apple.com/us/app/cisco-ereader/id722452404" target="_blank"> iOS </a>
+            apps.
+          </li>
           <li>
             Was one of the speaker for
-            <a href="https://unfoldui.com/" target="_blank">Unfold UI</a>
-            conference for &quot;Css grid&quot; and &quot;Progressive web app&quot;.
+            <a href="https://unfoldui.com/" target="_blank"> Unfold UI </a>
+            conference for
+            <a href="https://slides.com/kanhajeevan/css-grid-layout#/" target="_blank"> Css grid</a>
           </li>
-          <li>Developed a custom survey and sample distribution form using Google App Script for our client, BJ&apos;s Wholesale. Was appreciated for coming up with a quick, efficient and cost-effective solution.</li>
           <li>
-            <a href="https://github.com/jagatjeevan/grommet/commits?author=jagatjeevan" target="_blank">Contributed</a>
+            Was one of the speaker for the workshop for &quot;Progressive web app&quot;. We covered the
+            <a href="https://slides.com/kanhajeevan/progressive-web-apps#/" target="_blank"> following topics</a>
+            <ul>
+              <li>Promises</li>
+              <li>ServiceWorker</li>
+              <li>Cacheing patterns</li>
+              <li>Push Notification</li>
+              <li>Manifesting websites</li>
+            </ul>
+          </li>
+          <li>
+            Developed a custom survey and sample distribution
+            <a href="https://github.com/jagatjeevan/googleForm" target="_blank"> form </a>
+            using Google App Script for our client, BJ&apos;s Wholesale. Was appreciated for coming up with a quick, efficient and cost-effective solution.
+          </li>
+          <li>
+            <a href="https://github.com/jagatjeevan/grommet/commits?author=jagatjeevan" target="_blank"> Contributed </a>
             to
-            <a href="https://github.com/grommet/grommet" target="_blank">Grommet</a>
+            <a href="https://github.com/grommet/grommet" target="_blank"> Grommet </a>
             an open-source React UI framework.
           </li>
         </ul>
         <p>
           Few projects done during this time are:
-          https://www.virgintrains.co.uk/,
-          https://www.eastmidlandstrains.co.uk/,
-          http://www.scotrail.co.uk/.
+          <a href="https://www.virgintrains.co.uk/" target="_blank">https://www.virgintrains.co.uk/ </a>
+          ,
+          <a href="https://www.eastmidlandstrains.co.uk/" target="_blank">https://www.eastmidlandstrains.co.uk/ </a>
+          ,
+          <a href="http://www.scotrail.co.uk/" target="_blank">http://www.scotrail.co.uk/</a>
         </p>
       </div>
       <div className="sub-section">
@@ -113,7 +137,7 @@ const Resume = () => (
         <time dateTime="08-2013">Aug. 2013</time>
         <ul>
           <li>
-            <a href="http://www.toboc.com/" target="_blank">Toboc</a>
+            <a href="http://www.toboc.com/" target="_blank"> Toboc </a>
             <p>My responsibility was maintenance of a B2B site. This is a B2B portal where buyers and sellers around the world participate for trading. Few of my work include: </p>
             <ul>
               <li>Menu where you can go diagonally (out of a menu item straight into its sub menu) without closing the menu.</li>
@@ -135,11 +159,11 @@ const Resume = () => (
         <p>Created Mockups and Static pages with minimal jQuery used for interactions.</p>
         <ul>
           <li>
-            <a href="https://www.padlocks.co.uk/" target="_blank">Padlocks</a>
+            <a href="https://www.padlocks.co.uk/" target="_blank"> Padlocks </a>
             <p>A wordpress website for a variety locks to purchases online. My work was to create a static html with interactions using jQuery, helping developers if required for changes and integrations of the plugins. Made sure the client’s specifications were met with browser compatibility</p>
           </li>
           <li>
-            <a href="http://www.home4trip.com/" target="_blank">Home4trip</a>
+            <a href="http://www.home4trip.com/" target="_blank"> Home4trip </a>
             <p>Home for wanderers in Isreal. A rich user experience using jQuery, Built Gallery, Calendar(Custom made) using jQuery. Helped the developers integration and browser compatibility done in cakePHP</p>
           </li>
         </ul>
