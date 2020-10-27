@@ -2,7 +2,7 @@ $root-var: (
   border-color: #dedede,
   content-background: #fafafa,
   font-color: #333,
-  font-family: 'Open Sans Condensed',
+  font-family: "Open Sans Condensed",
   font-size: 20px,
   highlight-color: #fe8c26,
   line-height: 1.7em,
@@ -21,7 +21,7 @@ $root-var: (
   @include root-prop(--border-color, #dedede);
   @include root-prop(--content-background, #fafafa);
   @include root-prop(--font-color, #333);
-  @include root-prop(--font-family, 'Open Sans Condensed');
+  @include root-prop(--font-family, "Open Sans Condensed");
   @include root-prop(--font-size, 20px);
   @include root-prop(--highlight-color, #fe8c26);
   @include root-prop(--line-height, 1.7em);
@@ -118,7 +118,7 @@ section {
   }
 
   p {
-    @include top-bottom-margin(var(--spacer)/2);
+    @include top-bottom-margin(var(--spacer) / 2);
   }
 
   .fas {
@@ -137,7 +137,6 @@ section {
   display: grid;
 
   > div {
-
     &:nth-child(3n) {
       border: 0;
       border-bottom: darken($border-color, 10%) solid 1px;
@@ -158,13 +157,16 @@ section {
   padding: 0;
 
   li {
-    background: darken($border-color, 20%);
+    background: lighten($border-color, 5%);
     display: inline-block;
     list-style-type: none;
     margin: 0;
-    margin-bottom: var(--spacer);
-    margin-right: var(--spacer);
-    padding: 5px 15px;
+    margin-bottom: calc(var(--spacer) / 2);
+    margin-right: calc(var(--spacer) / 2);
+    padding: 2px 15px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    border: 1px solid darken($border-color, 1%);
 
     @media print {
       margin-bottom: map-get($root-var, spacer) / 2;
@@ -172,7 +174,7 @@ section {
       padding: 0;
 
       &::after {
-        content: ', ';
+        content: ", ";
       }
     }
   }

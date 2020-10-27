@@ -1,6 +1,19 @@
 // @flow
 
-import React from 'react';
+import React from "react";
+
+const skills = [
+  "Semantic HTML",
+  "HTML5",
+  "CSS3",
+  "Sass",
+  "Core JavaScript",
+  "Es6",
+  "Progressive web app",
+  "React",
+  "React Native",
+  "Webpack",
+];
 
 const Resume = () => (
   <article className="resume-container">
@@ -26,8 +39,7 @@ const Resume = () => (
       </span>
       <div>
         <i className="fas fa-phone" />
-        <a href="tel:+919740970977">(+91) 974-097-0977</a>
-,
+        <a href="tel:+919740970977">(+91) 974-097-0977</a>,
         <a href="tel:+919686602154">(+91) 968-660-2154</a>
       </div>
     </header>
@@ -52,16 +64,10 @@ const Resume = () => (
       </h2>
       <p>Below are the tech stacks I have hands-on experience</p>
       <ul className="technical-skills">
-        <li>React</li>
-        <li>Core JavaScript</li>
-        <li>React Native</li>
-        <li>Progressive web app</li>
-        <li>Es6</li>
-        <li>Webpack</li>
-        <li>HTML5</li>
-        <li>Sass</li>
-        <li>CSS3</li>
-        <li>jQuery</li>
+        <li>&micro;-frontend</li>
+        {skills.map((skill) => (
+          <li>{skill}</li>
+        ))}
       </ul>
     </section>
     <section>
@@ -232,8 +238,7 @@ const Resume = () => (
       </div>
       <div className="sub-section">
         <h4>UI Developer, Freelancer. Bhubaneswar, Odisha</h4>
-        <time dateTime="01-2010">Jan. 2010</time>
-–
+        <time dateTime="01-2010">Jan. 2010</time>–
         <time dateTime="07-2012">Jul. 2012</time>
         <p>
           Created Mockups and Static pages with minimal jQuery used for
