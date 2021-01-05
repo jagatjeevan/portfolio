@@ -39,7 +39,8 @@ const Resume = () => (
       </span>
       <div>
         <i className="fas fa-phone" />
-        <a href="tel:+919740970977">(+91) 974-097-0977</a>,
+        <a href="tel:+919740970977">(+91) 974-097-0977</a>
+,
         <a href="tel:+919686602154">(+91) 968-660-2154</a>
       </div>
     </header>
@@ -65,7 +66,7 @@ const Resume = () => (
       <p>Below are the tech stacks I have hands-on experience</p>
       <ul className="technical-skills">
         <li>&micro;-frontend</li>
-        {skills.map((skill) => (
+        {skills.map(skill => (
           <li>{skill}</li>
         ))}
       </ul>
@@ -238,7 +239,8 @@ const Resume = () => (
       </div>
       <div className="sub-section">
         <h4>UI Developer, Freelancer. Bhubaneswar, Odisha</h4>
-        <time dateTime="01-2010">Jan. 2010</time>–
+        <time dateTime="01-2010">Jan. 2010</time>
+–
         <time dateTime="07-2012">Jul. 2012</time>
         <p>
           Created Mockups and Static pages with minimal jQuery used for
