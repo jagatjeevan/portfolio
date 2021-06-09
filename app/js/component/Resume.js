@@ -237,38 +237,9 @@ const Resume = () => (
         </ul>
       </div>
       <div className="sub-section">
-        <h4>UI Developer, Freelancer. Bhubaneswar, Odisha</h4>
+        <h4>UI Developer, Freelancer.</h4>
         <time dateTime="01-2010">Jan. 2010</time>–
         <time dateTime="07-2012">Jul. 2012</time>
-        <p>
-          Created Mockups and Static pages with minimal jQuery used for
-          interactions.
-        </p>
-        <ul>
-          <li>
-            <a href="https://www.padlocks.co.uk/" target="_blank">
-              Padlocks
-            </a>
-            <p>
-              A wordpress website for a variety locks to purchases online. My
-              work was to create a static html with interactions using jQuery,
-              helping developers if required for changes and integrations of the
-              plugins. Made sure the client’s specifications were met with
-              browser compatibility
-            </p>
-          </li>
-          <li>
-            <a href="http://www.home4trip.com/" target="_blank">
-              Home4trip
-            </a>
-            <p>
-              Home for wanderers in Isreal. A rich user experience using jQuery,
-              Built Gallery, Calendar(Custom made) using jQuery. Helped the
-              developers integration and browser compatibility done in cakePHP
-            </p>
-          </li>
-        </ul>
-        <br />
         <p>
           During my Freelancing, majority of the work was around creating htmls
           from static psds. My work would brief in:
