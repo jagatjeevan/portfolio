@@ -167,15 +167,15 @@ section {
 
   li {
     background: lighten($border-color, 5%);
+    border: 1px solid darken($border-color, 1%);
+    border-radius: 6px;
     display: inline-block;
+    font-size: 0.8em;
     list-style-type: none;
     margin: 0;
     margin-bottom: calc(var(--spacer) / 2);
     margin-right: calc(var(--spacer) / 2);
     padding: 2px 15px;
-    border-radius: 6px;
-    font-size: 0.8em;
-    border: 1px solid darken($border-color, 1%);
 
     @media print {
       margin-bottom: map-get($root-var, spacer) / 2;

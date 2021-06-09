@@ -12,6 +12,7 @@
     "flow:stop": "flow stop",
     "prod": "webpack --mode=production",
     "sass-lint": "sass-lint -c ./.sass-lintrc './app/**/*.scss' -v -q",
+    "sass-lint:fix": "sass-lint-auto-fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "pre-commit": [
@@ -72,6 +73,7 @@
     "node-sass": "^4.14.1",
     "pre-commit": "^1.2.2",
     "sass-lint": "^1.12.1",
+    "sass-lint-auto-fix": "^0.21.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.16.5",

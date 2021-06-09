@@ -1,8 +1,6 @@
-// @flow
+import types from "../utils/actionTypes";
 
-import types from '../utils/actionTypes';
-
-export function changeLanguage(lang: string): Action {
+export function changeLanguage(lang) {
   return {
     type: types.LANGUAGE,
     payload: lang,
