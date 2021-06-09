@@ -1,12 +1,7 @@
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
-  "plugins": [
-    "flowtype",
-    "react",
-    "jsx-a11y",
-    "import"
-  ],
+  "plugins": ["flowtype", "react", "jsx-a11y", "import"],
   "rules": {
     // The rules for react
     "react/jsx-quotes": 0,
@@ -15,7 +10,8 @@
     "react/sort-comp": 0,
     "jsx-quotes": [2, "prefer-double"],
     // General programming
-    "react/jsx-one-expression-per-line": 2,
+    "react/jsx-one-expression-per-line": 0,
+    "arrow-parens": 0,
     "import/no-extraneous-dependencies": 2,
     "no-plusplus": [2, { "allowForLoopAfterthoughts": true }],
     "import/no-named-as-default": 0,
