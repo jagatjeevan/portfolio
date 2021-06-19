@@ -42,6 +42,12 @@ const Resume = () => (
         <a href="tel:+919740970977">(+91) 974-097-0977</a>,
         <a href="tel:+919686602154">(+91) 968-660-2154</a>
       </div>
+      <div>
+        <i className="fas fa-globe" />
+        <a href="https://jagatjeevan.vercel.app" target="_blank">
+          https://jagatjeevan.vercel.app
+        </a>
+      </div>
     </header>
     <section>
       <h2>
