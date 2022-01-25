@@ -1,0 +1,31 @@
+$root-var: (
+  border-color: #dedede,
+  content-background: #fafafa,
+  font-color: #333,
+  font-family: "Open Sans Condensed",
+  font-size: 20px,
+  highlight-color: #fe8c26,
+  line-height: 1.7em,
+  secondary-color: #26bdcf,
+  spacer: 20px,
+);
+
+$border-color: map-get($root-var, border-color);
+$border: $border-color solid 1px;
+
+@mixin root-prop($prop: null, $value: null) {
+  @if ($prop and $value) {
+    #{$prop}: $value;
+  }
+}
+
+@mixin top-bottom-margin($margin-amount) {
+  margin-bottom: $margin-amount;
+  margin-top: $margin-amount;
+}
+
+@mixin remove-border-from-last-section() {
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}

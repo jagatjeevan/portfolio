@@ -1,0 +1,145 @@
+@import "./utilities";
+
+@mixin section() {
+  border-bottom: $border;
+  padding: var(--spacer);  
+}
+
+.resumeContainer {
+  background: var(--content-background);
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: var(--spacer);
+  width: 100%;
+}
+
+.section {
+  @include section();
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  h1,
+  address {
+    grid-column-end: -1;
+    grid-column-start: 1;
+  }
+
+  h1 {
+    margin-bottom: 15px;
+  }
+}
+
+.telVariant {
+  font-size: .8em;
+  margin: 0 10px 0 5px;
+}
+
+.portfolioSection {
+  @include section();
+  @include remove-border-from-last-section();
+
+  p {
+    @include top-bottom-margin(var(--spacer) / 2);
+  }
+
+  .fas {
+    font-size: 19px;
+    position: relative;
+    top: -4px;
+  }
+}
+
+.subSection {
+  @include remove-border-from-last-section();
+  padding-bottom: var(--spacer);
+}
+
+
+.subSection {
+  border-bottom: $border;
+  margin-bottom: var(--spacer);
+}
+
+.educationDetails {
+  display: grid;
+
+  > div {
+    &:nth-child(3n) {
+      border: 0;
+      border-bottom: darken($border-color, 10%) solid 1px;
+    }
+
+    @media screen and (min-width: 720px) {
+      border-bottom: darken($border-color, 10%) solid 1px;
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    grid-template-columns: 4fr 4fr 1fr;
+  }
+
+  @media print {
+    grid-template-columns: 4fr 4fr 1fr;
+    > div {
+      &:nth-child(3n) {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+.technicalSkills {
+  margin: var(--spacer) 0 0;
+  padding: 0;
+
+  li {
+    background: lighten($border-color, 5%);
+    border: 1px solid darken($border-color, 1%);
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 0.8em;
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: calc(var(--spacer) / 2);
+    margin-right: calc(var(--spacer) / 2);
+    padding: 2px 15px;
+
+    @media print {
+      margin-bottom: calc(map-get($root-var, spacer) / 2);
+      margin-right: calc(map-get($root-var, spacer) / 2);
+      padding: 0;
+      border: 0;
+
+      &::after {
+        content: ', ';
+      }
+      &:last-of-type {
+        &::after {
+          content: '.';  
+        }  
+      }
+    }
+  }
+}
+
+.downloadIconContainer {
+  align-items: center;
+  background: #fe8c26;
+  border-radius: 50%;
+  bottom: 20px;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  position: fixed;
+  right: 20px;
+  width: 34px;
+  @media print {
+    display: none;
+  }
+}
+
+.downloadIcon {
+  color: #fff;
+}
+

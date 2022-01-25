@@ -1,0 +1,20 @@
+@import "./utilities";
+
+.appHeader {
+  border-bottom: $border;
+
+  a {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-right: var(--spacer);
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.active {
+  font-size: 1em;
+  font-weight: bold;
+}
