@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Jagat Jeevan Sahoo</title>
-        <meta name="description" content="UI dev, Team Lead in ThoughtWorks, Bengaluru, India" />
+        <meta name="description" content="UI dev,eloper, Team Lead in ThoughtWorks, Bengaluru, India" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Resume />

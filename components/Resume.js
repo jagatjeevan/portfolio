@@ -80,7 +80,7 @@ const Resume = () => (
         <ul>
           <li>
             Proposed the pros &amp; cons for various &micro;-frontend
-            Architecture implementation in Angular 8 and implemented in the
+            Architecture implementations in Angular 8 and implemented in the
             project.
           </li>
           <li>
@@ -94,7 +94,7 @@ const Resume = () => (
             train-operating company websites in the U.K.
             <ul>
               <li>
-                Architected a similiar system for a colleague&rsquo;s website.{" "}
+                Architected a similar system for a colleague&rsquo;s website.{" "}
                 <a
                   href="https://jagatjeevan.github.io/Su-Che.github.io/index.html"
                   target="_blank"
@@ -105,11 +105,11 @@ const Resume = () => (
             </ul>
           </li>
           <li>
-            Developed responsive emails templates using XSLT for new customer
+            Developed responsive email templates using XSLT for new customer
             registration, booking confirmation emails etc.
           </li>
           <li>
-            Architected a common platform to share UI component styles among 3
+            Designed a common platform to share UI component styles among 3
             teams, using React and Angular frameworks.
           </li>
           <li>
@@ -130,7 +130,7 @@ const Resume = () => (
             apps.
           </li>
           <li>
-            Was one of the speaker for{" "}
+            Was one of the speakers for{" "}
             <a href="https://unfoldui.com/" target="_blank">
               Unfold UI
             </a>{" "}
@@ -139,7 +139,7 @@ const Resume = () => (
               href="https://slides.com/kanhajeevan/css-grid-layout#/"
               target="_blank"
             >
-              Css grid
+              CSS grid
             </a>
           </li>
           <li>
@@ -154,7 +154,7 @@ const Resume = () => (
             <ul>
               <li>Promises</li>
               <li>ServiceWorker</li>
-              <li>Cacheing patterns</li>
+              <li>Caching patterns</li>
               <li>Push Notification</li>
               <li>Manifesting websites</li>
             </ul>
@@ -178,8 +178,8 @@ const Resume = () => (
             to{" "}
             <a href="https://github.com/grommet/grommet" target="_blank">
               Grommet
-            </a>{" "}
-            an open-source React UI framework.
+            </a>
+            , an open-source React UI framework.
           </li>
         </ul>
         <p>
@@ -199,7 +199,7 @@ const Resume = () => (
       </div>
       <div className={styles.subSection}>
         <h4>
-          UI Developer, Toboc International Pvt. Ltd.. Bangalore, KARNATAKA
+          UI Developer, Toboc International Pvt. Ltd. Bangalore, KARNATAKA
         </h4>
         <time dateTime="07-2012">Jul. 2012</time>
         to
@@ -210,14 +210,14 @@ const Resume = () => (
               Toboc
             </a>
             <p>
-              My responsibility was maintenance of a B2B site. This is a B2B
-              portal where buyers and sellers around the world participate for
+              My responsibility was the maintenance of a B2B site. This is a B2B
+              portal where buyers and sellers around the world participate in
               trading. Few of my work include:
             </p>
             <ul>
               <li>
                 Menu where you can go diagonally (out of a menu item straight
-                into its sub menu) without closing the menu.
+                into its sub-menu) without closing the menu.
               </li>
               <li>Integration of the callback menu.</li>
               <li>Sprite gallery.</li>
@@ -228,7 +228,7 @@ const Resume = () => (
             <p>
               This is a sister website for the above website. This is a website
               for people in Bangalore for deals to travel addicts and nature
-              explorer. My role included interacting with owners, understanding
+              explorers. My role included interacting with owners, understanding
               the patterns and consulting them for better profits.
             </p>
           </li>
@@ -239,14 +239,14 @@ const Resume = () => (
         <time dateTime="01-2010">Jan. 2010</time>–
         <time dateTime="07-2012">Jul. 2012</time>
         <p>
-          During my Freelancing, majority of the work was around creating htmls
-          from static psds. My work would brief in:
+          During my Freelancing, the majority of the work was around creating
+          HTML from static PSDs. My work would brief in:
         </p>
         <ul>
           <li>
             Slight modifications in PSDs and extracting resources (slicing)
           </li>
-          <li>Creating sprites out of the images / icons.</li>
+          <li>Creating sprites out of the images/icons.</li>
           <li>Browser compatibility.</li>
           <li>Using jQuery for interactions.</li>
           <li>Creating plugins if required.</li>
@@ -259,12 +259,12 @@ const Resume = () => (
         Education
       </h2>
       <div className={styles.educationDetails}>
-        <div>Bachelors in Technology, Electronics &amp; Telocommunication</div>
+        <div>Bachelors in Technology, Electronics &amp; Telecommunication</div>
         <div>Ajay Binay Institute of Technology, Cuttack, Odisha</div>
         <div>Dec. 2008</div>
 
-        <div>Intermidiate (10 + 2) in Science</div>
-        <div>Christ College, Cuttack, Odissa</div>
+        <div>Intermediate (10 + 2) in Science</div>
+        <div>Christ College, Cuttack, Odisha</div>
         <div>Dec. 2004</div>
 
         <div>Matriculation (10)</div>
