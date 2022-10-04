@@ -1,0 +1,13 @@
+- Collaborated with designers to develop the UI using HTML, CSS, JS and images (extracted by slicing PSDs)
+- Improved performance by creating image- & icon-sprites
+- Ensured cross-browser compatibility
+- Implemented interactions using jQuery and created plugins
+- Clients-websites for which I developed the UI:
+    - [ultracoatingusa.com](https://web.archive.org/web/20130615045508/http://www.ultracoatingusa.com/): Wall-painting company website using a Dreamweaver template
+    - [qdrive.net](https://web.archive.org/web/20100716121333/http://www.qdrive.net/): Website for sharing files and folders like Google Drive
+    - www.penpalsnmore.com: A dating website
+    - [www.corporategrapevine.com](https://web.archive.org/web/20101212220156/http://corporategrapevine.com/): Corporate chats website
+    - [argue4u.org](https://web.archive.org/web/20100329173809/http://argue4u.org/): Legal firm website.
+    - www.padlocks.co.uk: Padlock company website made with CakePHP
+    - [home4trip.com](https://web.archive.org/web/20110207161608/http://home4trip.com/): Website for finding short-term rental accommodation
+    - [www.hometownamusements.com](https://web.archive.org/web/20110607235443/http://www.hometownamusements.com/): Amusement park website where I implemented an image-map for interactivity

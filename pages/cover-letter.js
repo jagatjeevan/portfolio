@@ -12,7 +12,7 @@ const CoverLetter = () => {
               Cover Letter
             </h2>
             <p className="mr-top">
-              I am a UI developer with over 9 years of experience in the
+              I am a UI developer with over 11 years of experience in the
               industry. I am passionate about learning new trends in the market.
               My work majorly consists of analysis, evaluation and executing the
               design in projects using sound engineering principles and adhering

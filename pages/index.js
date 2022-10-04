@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Resume from '../components/Resume'
+import Resume from '../components/Resume';
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -7,10 +7,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Jagat Jeevan Sahoo</title>
-        <meta name="description" content="UI dev,eloper, Team Lead in ThoughtWorks, Bengaluru, India" />
+        <meta
+          name="description"
+          content="UI developer, Team Lead in ThoughtWorks, Bengaluru, India"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Resume />
     </div>
-  )
+  );
 }
