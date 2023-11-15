@@ -17,7 +17,7 @@ const skills = [
 
 const Resume = () => (
   <article className={styles.resumeContainer}>
-    <Header />
+    {/* <Header /> */}
     <a
       href="/resume.pdf"
       target="_blank"
@@ -81,7 +81,8 @@ const Resume = () => (
           <li>
             Proposed the pros &amp; cons for various &micro;-frontend
             Architecture implementations in Angular 8 and implemented in the
-            project.
+            project. Few of the patterns demonstrated which was proposed are{" "}
+            <a href="https://github.com/mfe-patterns">here</a>
           </li>
           <li>
             Designed a setup for the data-driven React application for a
