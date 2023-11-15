@@ -1,4 +1,4 @@
-import Header from "./Header";
+// import Header from "./Header";
 import styles from "../styles/Home.module.scss";
 
 const skills = [
@@ -21,6 +21,7 @@ const Resume = () => (
     <a
       href="/resume.pdf"
       target="_blank"
+      rel="noreferrer noopener"
       className={styles.downloadIconContainer}
     >
       <i className={`fas fa-download ${styles.downloadIcon}`} />
@@ -33,7 +34,7 @@ const Resume = () => (
       </div>
       <span>
         <i className="fas fa-code-branch" />
-        <a href="https://github.com/jagatjeevan">
+        <a href="https://github.com/jagatjeevan" rel="noreferrer noopener">
           https://github.com/jagatjeevan
         </a>
       </span>
@@ -46,7 +47,11 @@ const Resume = () => (
       </div>
       <div>
         <i className="fas fa-globe" />
-        <a href="https://jagatjeevan.vercel.app" target="_blank">
+        <a
+          href="https://jagatjeevan.vercel.app"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           https://jagatjeevan.vercel.app
         </a>
       </div>
@@ -99,6 +104,7 @@ const Resume = () => (
                 <a
                   href="https://jagatjeevan.github.io/Su-Che.github.io/index.html"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   here
                 </a>
@@ -118,6 +124,7 @@ const Resume = () => (
             <a
               href="https://play.google.com/store/apps/details?id=com.cisco.dkit"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Android
             </a>{" "}
@@ -125,6 +132,7 @@ const Resume = () => (
             <a
               href="https://itunes.apple.com/us/app/cisco-ereader/id722452404"
               target="_blank"
+              rel="noreferrer noopener"
             >
               iOS
             </a>{" "}
@@ -132,13 +140,18 @@ const Resume = () => (
           </li>
           <li>
             Was one of the speakers for{" "}
-            <a href="https://unfoldui.com/" target="_blank">
+            <a
+              href="https://unfoldui.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Unfold UI
             </a>{" "}
             conference for{" "}
             <a
               href="https://slides.com/kanhajeevan/css-grid-layout#/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               CSS grid
             </a>
@@ -149,6 +162,7 @@ const Resume = () => (
             <a
               href="https://slides.com/kanhajeevan/progressive-web-apps#/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               following topics
             </a>
@@ -162,7 +176,11 @@ const Resume = () => (
           </li>
           <li>
             Developed a custom survey and sample distribution{" "}
-            <a href="https://github.com/jagatjeevan/googleForm" target="_blank">
+            <a
+              href="https://github.com/jagatjeevan/googleForm"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               form
             </a>{" "}
             using Google App Script for our client, BJ&apos;s Wholesale. Was
@@ -173,11 +191,16 @@ const Resume = () => (
             <a
               href="https://github.com/jagatjeevan/grommet/commits?author=jagatjeevan"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Contributed
             </a>{" "}
             to{" "}
-            <a href="https://github.com/grommet/grommet" target="_blank">
+            <a
+              href="https://github.com/grommet/grommet"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Grommet
             </a>
             , an open-source React UI framework.
@@ -185,15 +208,27 @@ const Resume = () => (
         </ul>
         <p>
           Few projects done during this time are:{" "}
-          <a href="https://www.virgintrains.co.uk/" target="_blank">
+          <a
+            href="https://www.virgintrains.co.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             https://www.virgintrains.co.uk/
           </a>
           ,{" "}
-          <a href="https://www.eastmidlandstrains.co.uk/" target="_blank">
+          <a
+            href="https://www.eastmidlandstrains.co.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             https://www.eastmidlandstrains.co.uk/
           </a>
           ,{" "}
-          <a href="http://www.scotrail.co.uk/" target="_blank">
+          <a
+            href="http://www.scotrail.co.uk/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             http://www.scotrail.co.uk/
           </a>
         </p>
@@ -207,7 +242,11 @@ const Resume = () => (
         <time dateTime="08-2013">Aug. 2013</time>
         <ul>
           <li>
-            <a href="http://www.toboc.com/" target="_blank">
+            <a
+              href="http://www.toboc.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Toboc
             </a>
             <p>

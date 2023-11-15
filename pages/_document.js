@@ -17,7 +17,7 @@ class MyDocument extends Document {
             crossOrigin="anonymous"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
+            href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=optional"
             rel="stylesheet"
           />
         </Head>
