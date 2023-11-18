@@ -5,14 +5,13 @@
   @include root-prop(--border-color, #dedede);
   @include root-prop(--content-background, #fafafa);
   @include root-prop(--font-color, #333);
-  @include root-prop(--font-family, 'Open Sans Condensed');
+  @include root-prop(--font-family, "Open Sans Condensed");
   @include root-prop(--font-size, 20px);
   @include root-prop(--highlight-color, #fe8c26);
   @include root-prop(--line-height, 1.7em);
   @include root-prop(--secondary-color, #26bdcf);
   @include root-prop(--spacer, 20px);
 }
-
 
 html,
 body {
@@ -25,6 +24,12 @@ body {
   @media print {
     font-size: 14px;
   }
+}
+
+body {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h1,
