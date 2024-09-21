@@ -1,0 +1,9 @@
+name: linters
+on: "workflow_dispatch"
+
+jobs:
+  format:
+    runs-on: macos-latest
+    steps:
+      - name: check for formatting
+        run: npm run lint
